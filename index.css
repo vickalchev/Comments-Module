@@ -1,0 +1,32 @@
+main {
+  height: 100vh;
+  font-family: pro sans, sans serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 20px;
+  width: 40%;
+}
+
+.commentBox {
+  margin: 20px;
+  width: 40%;
+}
+
+.btn {
+  font-size: 1.4rem;
+  width: 10%;
+}
+
+.commentWrap {
+  margin: 40px;
+  width: 40vw;
+  border-radius: 5px;
+  background-color: #f4f7fd;
+  padding: 10px;
+}
