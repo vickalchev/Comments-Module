@@ -23,7 +23,8 @@ main {
   width: 10%;
 }
 
-.commentWrap {
+li {
+  list-style: none;
   margin: 40px;
   width: 40vw;
   border-radius: 5px;
