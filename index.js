@@ -15,8 +15,8 @@ const postComment = () => {
 
 const postBtn = document.getElementById('postBtn');
 postBtn.addEventListener("click", emptyInputTest = () => {
-
-    // if (postComment.length > 0)
+    let commentValue = document.getElementById('commentInput').value;
+    if (commentValue.length > 0)
         return postComment();
 });
 
